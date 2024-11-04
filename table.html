@@ -7,6 +7,117 @@
     <link rel="stylesheet" type="text/css" href="bio-data.css"/>
 </head>
 <body>
+	<style>
+		* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #007BFF;
+    font-size: 2.5em;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #e9ecef;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto; /* Allows horizontal scrolling on small screens */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tr:hover {
+    background-color: #d1ecf1; /* Light blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    section {
+        padding: 10px;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+}
+	</style>
     <div class="container">
         <header>
             <h1>Bio Data</h1>
@@ -53,10 +164,7 @@
                 <li>God-fearing and honest.</li>
             </ul>
         </section>
-        <footer>
-            <p>&copy; 2024 Zziwa Daniel Vianne</p>
-        </footer>
-		
+        
 		<div class="table-container">
         <h2>Language Proficiency</h2>
         <table>
