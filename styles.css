@@ -399,5 +399,13 @@ body {
 .footer p {
     margin: 0;
 }
+.footer {
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 20px; /* Adds space above the footer */
+    padding: 15px; /* Adds padding inside the footer */
+    background-color: #e9ecef; /* Light gray background */
+    border-top: 2px solid #007BFF; /* Top border for separation */
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+}
 
 
