@@ -128,12 +128,12 @@ transform: translateY(-5px);
 }
 
 .work-experience-section {
- border: 2px solid black;
-    padding: 20px;
-    margin-bottom: 20px auto;
-    text-align: center;
-    background-color:white;
-    border-radius: 8px;
+	border: 4px solid black;
+	padding: 20px;
+	margin-bottom: 20px auto;
+	text-align: center;
+	background-color:white;
+	border-radius: 8px;	
 }
 1 {
     font-size: 2.5em; /* Increase font size for the main heading */
