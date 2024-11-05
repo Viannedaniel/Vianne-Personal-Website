@@ -153,6 +153,7 @@ max-width: 800px; /* Set a maximum width for the section */
     font-style: italic; /* Italicize the date */
     color: #777; /* Lighter color for the date */
     margin-bottom: 15px; /* Spacing below the date */
+	text-align:center;
 }
 
 ol {
