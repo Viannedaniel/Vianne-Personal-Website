@@ -129,7 +129,8 @@ body {
     border: 1px solid black;
     padding: 20px;
     text-align: center;
-    background-color:Aqua;
+   justify-content: center;
+    background-color:white;
     border-radius: 8px;
 	margin: 20px auto;
 }
@@ -138,7 +139,7 @@ body {
   border: 1px solid black;
     padding: 20px;
     text-align: center;
-    background-color:Aqua;
+    background-color:white;
     border-radius: 8px;
      margin: 20px auto;	
 }
@@ -162,7 +163,7 @@ body {
 .hobbies-list li {
   font-family: Arial, sans-serif;
   font-size: 18px;
-  background-color:Aqua; 
+  background-color:white; 
   color:black;
   padding: 10px;
   margin: 10px 0;
@@ -179,7 +180,7 @@ body {
 
 
 .hobbies-list li:hover {
-  background-color:blue; 
+  background-color:white; 
 }
 
 
