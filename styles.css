@@ -123,6 +123,8 @@ body {
 .school-item:hover {
     background-color: gold; /
     transform: scale(1.05); 
+transform: translateY(-5px);
+}
 }
 
 .work-experience-section {
