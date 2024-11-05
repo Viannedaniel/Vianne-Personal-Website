@@ -134,6 +134,32 @@ body {
     border-radius: 8px;
 	margin: 20px auto;
 }
+1 {
+    font-size: 2.5em; /* Increase font size for the main heading */
+    color: #333; /* Darker text for contrast */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.internship-experience h3 {
+    font-size: 1.8em; /* Increase font size for the internship heading */
+    color: #007bff; /* Blue color for emphasis */
+    margin-bottom: 10px; /* Spacing below the heading */
+}
+
+.date {
+    font-style: italic; /* Italicize the date */
+    color: #777; /* Lighter color for the date */
+    margin-bottom: 15px; /* Spacing below the date */
+}
+
+ol {
+    padding-left: 20px; /* Indent the ordered list */
+}
+
+ol li {
+    margin-bottom: 10px; /* Spacing between list items */
+    line-height: 1.6; /* Improve line spacing for readability */
+}
 
 .hobbies-section {
   border: 1px solid black;
