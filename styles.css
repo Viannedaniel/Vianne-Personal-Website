@@ -430,3 +430,19 @@ footer {
 footer p {
     margin: 0;
 }
+
+.graduate-status {
+    font-size: 1.5em;
+    font-weight: bold;
+    background: linear-gradient(90deg, #0066cc, #00ccff);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+.graduate-status:hover {
+    color: #0066cc; /* Fallback color on hover */
+    transform: scale(1.1); /* Slightly enlarges the text on hover */
+}
