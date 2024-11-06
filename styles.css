@@ -94,6 +94,8 @@ body {
     text-align: center;
     background-color:white;
     border-radius: 8px;
+max-width: 1200px;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .school-list {
