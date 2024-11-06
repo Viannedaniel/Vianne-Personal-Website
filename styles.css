@@ -127,6 +127,18 @@ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     transform: scale(1.05); 
 transform: translateY(-5px);
 }
+/* Responsive adjustment for smaller screens */
+@media (max-width: 768px) {
+    .school-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .school-list {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 .work-experience-section {
